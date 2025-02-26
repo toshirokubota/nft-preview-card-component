@@ -66,6 +66,9 @@
 .main > * + * {
     margin-top: 1rem;
 }
+.content > * + * {
+    margin-top: 1rem;
+}
 .hero {
     border-radius: 0.5rem;
     width: 100%;
@@ -86,34 +89,34 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.detail {
+.content__detail {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.detail > .cost {
+.content__detail_cost {
     display: inline-flex;
     /* align-items: center; */
     gap: 0.5rem;
  }
- .detail > .time-left {
+ .content__detail_timeleft {
     display: inline-flex;
     /* align-items: center; */
     gap: 0.5rem;
  }
-.detail > .cost::before {
+.content__detail_cost::before {
    content: url('./images/icon-ethereum.svg');
 }
-.detail > .time-left::before {
+.content__detail_timeleft::before {
     content: url('./images/icon-clock.svg');
 }
-.creator {
+.content__creator {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 0.5rem;
 }
-.creator > img {
+.content__creator > img {
     width: 33px;
     height: 33px;
 }
