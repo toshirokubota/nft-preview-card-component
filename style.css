@@ -48,7 +48,7 @@
     font-weight: 600;
 }
 
-body {
+.body {
     min-height: 100vh; 
     display: flex;
     flex-direction: column;
@@ -57,16 +57,16 @@ body {
     width: 100%;
     background-color: var(--dark-blue-main);
 }
-main {
+.main {
     max-width: 350px;
     background-color: var(--dark-blue-card);
     padding: 1.5rem;
     border-radius: 1rem;
 }
-main > * + * {
+.main > * + * {
     margin-top: 1rem;
 }
-.hero-image {
+.hero {
     border-radius: 0.5rem;
     width: 100%;
     background-image: url('./images/image-equilibrium.jpg');
@@ -74,12 +74,12 @@ main > * + * {
     aspect-ratio: 1/1;
     position: relative;
 }
-.hero-image:hover, .hero-image:focus {
+.hero:hover, .hero:focus {
     background-image: linear-gradient(rgba(0,255,248,0.5),rgba(0,255,248,0.5)), url('./images/image-equilibrium.jpg');
     background-blend-mode:normal;
     cursor: pointer;
 }
-.hero-image:hover::after, .hero-image:focus::after {
+.hero:hover::after, .hero:focus::after {
     content: url('./images/icon-view.svg');
     position: absolute;
     top: 50%;
