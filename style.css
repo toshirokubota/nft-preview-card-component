@@ -25,29 +25,6 @@
     margin: 0;
     padding: 0;
 }
-/* .white-font {
-    color: var(--white);
-}
-.cyan-font {
-    color: var(--cyan);
-}
-.heading-font {
-    font-size: 22px;
-    font-weight: 600;
-}
-.body-font {
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 150%;
-}
-.caption-font {
-    font-size: 15px;
-    font-weight: 400;
-}
-.caption-bold-font {
-    font-weight: 600;
-} */
-
 .body {
     min-height: 100vh; 
     display: flex;
